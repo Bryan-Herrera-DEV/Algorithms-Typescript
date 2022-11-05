@@ -1,9 +1,11 @@
 {
-  "name": "typescript",
+  "name": "algorithms-typescript",
   "version": "1.0.0",
   "type": "module",
   "description": "About Algoritmos y estructuras de datos implementados en Typescript para principiantes, siguiendo las mejores prácticas.",
   "main": "",
+  "license": "MIT",
+  "author": "Bryan-Herrera-Dev",
   "scripts": {
     "test": "jest --no-cache"
   },
