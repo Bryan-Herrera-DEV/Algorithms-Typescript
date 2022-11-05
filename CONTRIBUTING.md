@@ -83,6 +83,20 @@ También hemos preparado un script de ayuda que ejecuta las pruebas sólo para l
 npm run test-changed
 ```
 Esto ejecutará todas las pruebas y vigilará los archivos fuente y de prueba en busca de cambios. Cuando se realice un cambio, las pruebas se ejecutarán de nuevo.
+#### Formato de los `commit`
+- Es preferible utilizar el siguiente formato: `[<emoji type> <type>](<issue number>): descripcion brebe`. Si es necesario, ponga cualquier información extra en la descripción.
+- Para los emojis usar la lista [emojis de gitmoji](https://gitmoji.dev).
+
+- Los tipos de commit incluyen (pero no se limitan a):
+    - docs: Cambios sólo en la documentación
+    - feat: Una nueva característica
+    - fix: Una corrección de errores
+    - testing: Añadir o arreglar pruebas
+- **Ejemplos:**
+    - `[✨ feat]`: añadir el algoritmo quicksort
+    - `[🐛 fix](#10)`: mensaje de error incorrecto
+    - `[📝 docs]`: añadir directrices de contribución
+    - `[✅ test]`: añadir test para el algoritmo quicksort
 
 #### Estilo de codificación
 Para maximizar la legibilidad y la corrección de nuestro código, requerimos que los nuevos envíos sigan el estilo estándar de JavaScript/Typescript.
