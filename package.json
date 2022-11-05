@@ -8,6 +8,7 @@
   "author": "Bryan-Herrera-Dev",
   "scripts": {
     "test": "jest --no-cache",
+    "test-changed": "jest --onlyChanged",
     "style": "standard --fix"
   },
   "dependencies": {
