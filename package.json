@@ -7,7 +7,8 @@
   "license": "MIT",
   "author": "Bryan-Herrera-Dev",
   "scripts": {
-    "test": "jest --no-cache"
+    "test": "jest --no-cache",
+    "style": "standard --fix"
   },
   "dependencies": {
     "@types/jest": "^29.2.2",
@@ -19,5 +20,9 @@
   },
   "engines": {
     "node": "18.12.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^29.2.2",
+    "ts-standard": "^12.0.1"
   }
 }
