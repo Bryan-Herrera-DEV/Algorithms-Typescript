@@ -1,0 +1,33 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    name: Estilo de código y pruebas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: 📦 Instalando Dependencias
+        run: npm ci
+
+      - name: 🧪 Corriendo Todos los Test
+        if: ${{ github.event_name == 'push' }}
+        run: npm run test
+
+      - name: 🧪 Ejecutar Test sólo para los archivos modificados
+        if: ${{ github.event_name == 'pull_request' }}
+        run: npm run test-changed
+
+      - name: 💄 Estilo de codigo
+        run: npm run style
