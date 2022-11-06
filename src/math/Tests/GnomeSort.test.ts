@@ -1,3 +1,5 @@
+import { gnomeSort } from "../GnomeSort";
+
 describe("Probando algoritmo 'Gnome Sort'", () => {
   const testsCases: number[][] = [
     [],
@@ -9,6 +11,9 @@ describe("Probando algoritmo 'Gnome Sort'", () => {
   test.each(testsCases)(
     'Deeberia devolver el valor correcto del caso de prueba: %#',
     (...arr: number[]) => {
+      expect(gnomeSort([...arr])).toStrictEqual(
+        [...arr].sort((a: number, b: number) => a - b)
+      );
     }
   );
 });
