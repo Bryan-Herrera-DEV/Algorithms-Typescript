@@ -18,6 +18,5 @@
       i = Math.max(1, i - 1); // devolvernos al indice anterior para comprobar el intercambio
     }
   }
-  console.log(arr);
   return arr;
 }
