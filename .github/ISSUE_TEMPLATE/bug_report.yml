@@ -1,0 +1,41 @@
+name: Bug report
+description: 'Crear un informe que nos ayude a mejorar'
+title: '[BUG]: '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: '### Asegurese de que su tema no es un duplicado y de que sigue nuestras [directrices de contribucion](https://github.com/Bryan-Herrera-DEV/Algorithms-Typescript/blob/main/CONTRIBUTING.md)'
+  - type: textarea
+    id: description
+    attributes:
+      label: Descricion
+      description: Explica cual es el problema.
+    validations:
+      required: true
+  - type: textarea
+    id: expectedbhv
+    attributes:
+      label: Comportamiento esperado
+      description: Describa cual era el comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actualbhv
+    attributes:
+      label: Comportamiento actual
+      description: Describe lo que realmente ocurre.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir (si es posible)
+      description: Enumere los pasos para reproducir el comportamiento.
+      placeholder: |
+        1.
+        2.
+        3.
+        4.
+    validations:
+      required: false
