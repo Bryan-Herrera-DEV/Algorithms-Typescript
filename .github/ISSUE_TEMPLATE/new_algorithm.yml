@@ -8,3 +8,10 @@ body:
       value: |
         ### Esta plantilla de emisión es para proponer nuevos algoritmos.
         ### Asegúrese de que su tema no es un duplicado y de que sigue nuestras [directrices de contribución](https://github.com/Bryan-Herrera-DEV/Algorithms-Typescript/blob/main/CONTRIBUTING.md)
+  - type: textarea
+    id: Descripcion del algoritmo
+    attributes:
+      label: Motivation
+      description: Describa el algoritmo, su uso de manera sencilla y si es posible su complejidad matemática
+    validations:
+      required: true
