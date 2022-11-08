@@ -1,7 +1,7 @@
 name: New Algorithm
 description: 'Sugerir nuevos algoritmos, proponer mejoras, debatir nuevas ideas de algoritmos'
 title: '[NEW ALGORITHM]: '
-labels: ['New%20Algorithm']
+labels: ['New Algorithm']
 body:
   - type: markdown
     attributes:
