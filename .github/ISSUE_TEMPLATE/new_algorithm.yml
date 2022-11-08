@@ -1,0 +1,10 @@
+name: New Algorithm
+description: 'Sugerir nuevos algoritmos, proponer mejoras, debatir nuevas ideas de algoritmos'
+title: '[NEW ALGORITHM]: '
+labels: ['New%20Algorithm']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Esta plantilla de emisión es para proponer nuevos algoritmos.
+        ### Asegúrese de que su tema no es un duplicado y de que sigue nuestras [directrices de contribución](https://github.com/Bryan-Herrera-DEV/Algorithms-Typescript/blob/main/CONTRIBUTING.md)
