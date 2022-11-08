@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: examples
     attributes:
-      label: Referencias
+      label: Referencias y links
       description: Si usted ah tomado la idea del algoritmo ponga los enlaces aqui, o si tiene enlaces que expliquen de una manera mas extensa el mismo
     validations:
       required: true
