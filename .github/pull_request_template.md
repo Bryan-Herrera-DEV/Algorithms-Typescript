@@ -3,6 +3,7 @@
 - [ ] ¿Añade un algoritmo?
 - [ ] ¿Corregir un error en un algoritmo existente?
 - [ ] ¿Cambios en la documentación?
+- [ ] ¿Añade una nueva característica o mejora al core del proyecto?
 
 ### Checklist:
 
