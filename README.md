@@ -22,5 +22,6 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 `A` - Avanzados, `I` - Intermedios, `B` - Básicos
 
 <details><summary>Ordenamiento</summary>
+
 - `B` - [Quick Sort](/src/algorithms/sorts/GnomeSort/) - [Video](https://www.youtube.com/watch?v=00pu8usw2Ho)
 </details>
