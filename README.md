@@ -9,5 +9,9 @@
         <a align="center" href="https://www.npmjs.com/package/typescript"><img alt="npm" src="https://img.shields.io/npm/v/typescript?label=typescript"></a>
     </div>
 <hr>
-<b>Estas implementaciones son sólo para fines demostrativos/educativos. Las implementaciones dedicadas de estos algoritmos y estructuras de datos son mucho mejores por razones de rendimiento y seguridad.</b>
 </div>
+
+<div>
+<p><b>⚠️ Nota: </b> Estas implementaciones son sólo para fines demostrativos/educativos. Las implementaciones dedicadas de estos algoritmos y estructuras de datos son mucho mejores por razones de rendimiento y seguridad.</p>
+</div>
+<hr>
