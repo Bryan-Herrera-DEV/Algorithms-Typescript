@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest --no-cache",
     "test-changed": "jest --onlyChanged",
-    "style": "ts-standard --fix"
+    "style": "ts-standard --fix",
+    "lint": "eslint . --ext .ts"
   },
   "dependencies": {
     "@types/jest": "^29.2.2",
