@@ -9,9 +9,8 @@
   "scripts": {
     "test": "jest --no-cache",
     "test-changed": "jest --onlyChanged",
-    "style": "ts-standard --fix",
     "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix"
+    "style": "npm run lint -- --fix"
   },
   "dependencies": {
     "@types/jest": "^29.2.2",
