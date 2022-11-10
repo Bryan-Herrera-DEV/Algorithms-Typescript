@@ -18,3 +18,11 @@
 
 ## Algoritmos ![GitHub repo directory count (custom path)](https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms?label=Cantidad%20actual)
 Un algoritmo es una especificación inequívoca de cómo resolver una clase de problemas. Es un conjunto de reglas que definen con precisión una secuencia de operaciones.
+
+**Nota:** El formato sera: `Dificultad` - `Nombre del algoritmo` - `Video explicativo(opcional)` - `Blog explicativo(opcional)`
+
+`A` - Avanzados, `I` - Intermedios, `B` - Básicos
+<details><summary>Ordenamiento</summary>
+
+- `B` - [Quick Sort](/src/algorithms/sorts/GnomeSort/) - [Video](https://www.youtube.com/watch?v=00pu8usw2Ho)
+</details>
