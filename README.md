@@ -22,7 +22,5 @@
 </div>
 <hr>
 
-## Algoritmos
+## Algoritmos ![GitHub repo directory count (custom path)](https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms?label=Cantidad%20actual)
 Un algoritmo es una especificación inequívoca de cómo resolver una clase de problemas. Es un conjunto de reglas que definen con precisión una secuencia de operaciones.
-
-Actualmente hay esta cantidad de ![GitHub repo directory count (custom path)](https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src?label=algoritmos) implementados en este repositorio.
