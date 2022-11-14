@@ -9,5 +9,30 @@
 
 
 export const CaesarCipher = (str: string, rotation: number, encrypt: boolean = true): string => {
+  if (typeof str !== "string" || !Number.isInteger(rotation) || rotation <= 0 || typeof encrypt !== "boolean") {
+    throw new TypeError("Argumentos invalidos");
+  }
 
+  rotation = encrypt ? rotation : -(rotation);
+
+  const alphabets = new Array(26)
+    .fill(0)
+    .map((_ :string, index: number) => String.fromCharCode(97 + index));
+
+  const cipherMap = alphabets.reduce(
+    (map, char, index) => {
+      if (((rotation + index) % 26) < 0) {
+        return map.set(char, alphabets[26 + ((rotation + index) % 26)]);
+      }
+      return map.set(char, alphabets[(rotation + index) % 26]);
+    },
+    new Map()
+  );
+
+  return str.replace(/[a-z]/gi, (char: string): string => {
+      if (/[A-Z]/.test(char)) {
+        return cipherMap.get(char.toLocaleLowerCase()).toUpperCase();
+      }
+      return cipherMap.get(char);
+  });
 };
