@@ -26,3 +26,9 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 
 - `B` - [Quick Sort](/src/algorithms/sorts/GnomeSort/) - [Video](https://www.youtube.com/watch?v=00pu8usw2Ho)
 </details>
+
+<details><summary>Cifrado</summary>
+<br>
+
+- `I` - [Caesar Cipher](/src/algorithms/ciphers/CaesarCipher/) - [Video](https://www.youtube.com/watch?v=2JS6t3R8gFQ)
+</details>
