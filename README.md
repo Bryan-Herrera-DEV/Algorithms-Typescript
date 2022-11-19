@@ -32,3 +32,9 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 
 - `I` - [Caesar Cipher](/src/algorithms/ciphers/CaesarCipher/) - [Video](https://www.youtube.com/watch?v=2JS6t3R8gFQ)
 </details>
+
+<details><summary>Busqueda</summary>
+<br>
+
+- `B` - [Binary Search](/src/algorithms/search/BinarySearch/)
+</details>
