@@ -34,3 +34,22 @@ export const binarySearchIterative = (array: number[], target: number): number =
   // devuelve el índice medio si es igual al objetivo
   return array[middle] === target ? middle : -1;
 };
+
+
+export const binarySearchRecursive = (array: number[], target: number, start = 0, end = array.length - 1): number => {
+  if (array.length === 0) {return -1;}
+
+  // asegúrese de que el objetivo está dentro de los límites de la matriz
+  if (target < array[start] || target > array[end]) {return -1;}
+
+  const middle = (start + end) >> 1;
+
+  if (array[middle] === target) {return middle;} // número encontrado
+  if (start > end) {return -1;} // número no encontrado
+
+  // si el objetivo es menor que el valor medio, mueve el puntero final para que sea medio -1 para reducir el espacio de búsqueda
+  // en caso contrario, mueve el puntero de inicio para que sea medio + 1
+  return target < array[middle]
+      ? binarySearchRecursive(array, target, start, middle - 1)
+      : binarySearchRecursive(array, target, middle + 1, end);
+};

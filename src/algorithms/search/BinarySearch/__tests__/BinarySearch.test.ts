@@ -1,9 +1,9 @@
-import { binarySearchIterative } from "../BinarySearch";
+import { binarySearchIterative, binarySearchRecursive } from "../BinarySearch";
 
 describe("BinarySearch", () => {
     const testArray: number[] = [1, 2, 3, 4];
     type FunctionsArray = { (array: number[], index: number): number }[];
-    const functions: FunctionsArray = [binarySearchIterative];
+    const functions: FunctionsArray = [binarySearchIterative, binarySearchRecursive];
 
     for (const func of functions) {
         it("should be defined", () => {
