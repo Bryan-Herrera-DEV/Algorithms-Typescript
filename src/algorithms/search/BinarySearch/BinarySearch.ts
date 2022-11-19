@@ -11,5 +11,26 @@
  */
 
 export const binarySearchIterative = (array: number[], target: number): number => {
-  return 0;
+  if (array.length === 0) {return -1;}
+
+  // declarar punteros para los índices de inicio, medio y final
+  let start = 0,
+      end = array.length - 1,
+      middle = (start + end) >> 1;
+
+  // asegúrese de que el objetivo está dentro de los límites de la matriz
+  if (target < array[start] || target > array[end]) {return -1;}
+
+  while (array[middle] !== target && start <= end) {
+      // si el objetivo es menor que el valor medio, mueve el puntero final para que sea medio -1 para reducir el espacio de búsqueda
+      // en caso contrario, mueve el puntero de inicio para que sea medio + 1
+      if (target < array[middle])
+          {end = middle - 1;}
+      else
+          {start = middle + 1;}
+      // volver a declarar el índice medio cuando la ventana de búsqueda cambia
+      middle = (start + end) >> 1;
+  }
+  // devuelve el índice medio si es igual al objetivo
+  return array[middle] === target ? middle : -1;
 };
