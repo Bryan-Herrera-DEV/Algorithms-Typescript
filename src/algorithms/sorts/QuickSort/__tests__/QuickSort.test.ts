@@ -1,4 +1,4 @@
-import { QuickSort } from "../QuickSort"; 
+import { QuickSort } from "../QuickSort";
 
 describe("Probando algoritmo 'Quick Sort'", () => {
   const testsCases: number[][] = [
