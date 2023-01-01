@@ -10,7 +10,9 @@
     "test": "jest --no-cache",
     "test-changed": "jest --onlyChanged",
     "lint": "eslint . --ext .ts",
-    "style": "npm run lint -- --fix"
+    "style": "npm run lint -- --fix",
+    "prepare": "husky install",
+    "test-files": "node scripts/ValidateDirectory.mjs"
   },
   "dependencies": {
     "@types/jest": "^29.2.2",
@@ -27,6 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "babel-jest": "^29.2.2",
-    "eslint": "^8.27.0"
+    "eslint": "^8.27.0",
+    "husky": "^8.0.2"
   }
 }
