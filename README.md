@@ -16,25 +16,25 @@
 </div>
 <hr>
 
-## Algoritmos ![GitHub repo directory count (custom path)](https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms?label=Cantidad%20actual)
+## Algoritmos
 Un algoritmo es una especificación inequívoca de cómo resolver una clase de problemas. Es un conjunto de reglas que definen con precisión una secuencia de operaciones.
 
 `A` - Avanzados, `I` - Intermedios, `B` - Básicos
 
-<details><summary>Ordenamiento</summary>
+<details><summary>Ordenamiento <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/sorts?label=Cantidad%20actual"/></summary>
 <br>
 
 - `B` - [Gnome Sort](/src/algorithms/sorts/GnomeSort/) - [Video](https://www.youtube.com/watch?v=00pu8usw2Ho)
 - `I` - [Quick Sort](/src/algorithms/sorts/QuickSort/)
 </details>
 
-<details><summary>Cifrado</summary>
+<details><summary>Cifrado <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/ciphers?label=Cantidad%20actual"/></summary>
 <br>
 
 - `I` - [Caesar Cipher](/src/algorithms/ciphers/CaesarCipher/) - [Video](https://www.youtube.com/watch?v=2JS6t3R8gFQ)
 </details>
 
-<details><summary>Busqueda</summary>
+<details><summary>Busqueda <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/searchs?label=Cantidad%20actual"/></summary>
 <br>
 
 - `B` - [Binary Search](/src/algorithms/search/BinarySearch/)
