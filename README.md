@@ -34,7 +34,7 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 - `I` - [Caesar Cipher](/src/algorithms/ciphers/CaesarCipher/) - [Video](https://www.youtube.com/watch?v=2JS6t3R8gFQ)
 </details>
 
-<details><summary>Busqueda <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/searchs?label=Cantidad%20actual"/></summary>
+<details><summary>Busqueda <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/search?label=Cantidad%20actual"/></summary>
 <br>
 
 - `B` - [Binary Search](/src/algorithms/search/BinarySearch/)
