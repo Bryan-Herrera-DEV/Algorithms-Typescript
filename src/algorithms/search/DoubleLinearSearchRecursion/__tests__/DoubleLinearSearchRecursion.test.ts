@@ -1,30 +1,30 @@
 import { DoubleLinearSearchRecursion } from "../DoubleLinearSearchRecursion";
 
-describe("BinarySearch", () => {
+describe("Probando algoritmo 'Duble Linear Search With Recursion'", () => {
   const testArray: number[] = [1, 2, 3, 4];
 
-  it("should be defined", () => {
+  it("Tiene que estar definido", () => {
     expect(DoubleLinearSearchRecursion(testArray, 2)).toBeDefined();
   });
-  it("should return a number", () => {
+  it("Tiene que devolver un numero", () => {
     expect(typeof DoubleLinearSearchRecursion(testArray, 2)).toBe("number");
   });
-  it("should return -1 if the target is not found in the array", () => {
+  it("Tiene que devolver -1 si el target no se encuentra en el array", () => {
     expect(DoubleLinearSearchRecursion(testArray, 5)).toBe(-1);
   });
-  it("should return -1 if there are no elements in the array", () => {
+  it("Tiene que devolver -1 si no hay elementos en el array", () => {
     expect(DoubleLinearSearchRecursion([], 5)).toBe(-1);
   });
-  it("should return the index of the target if it is found in the array", () => {
+  it("Tiene que devolver el índice del target si se encuentra en el array", () => {
     expect(DoubleLinearSearchRecursion(testArray, 2)).toBe(1);
   });
-  it("should return a correct index of target when the array contains duplicate values", () => {
+  it("Tiene que devolver un índice correcto de destino cuando el array contiene valores duplicados", () => {
     expect(DoubleLinearSearchRecursion([1, 2, 2, 3, 3, 3, 4], 2)).toBe(1);
   });
-  it("should return the first index when the target is the first item in the array", () => {
+  it("Tiene que devolver el primer índice cuando el objetivo es el primer elemento del array", () => {
     expect(DoubleLinearSearchRecursion(testArray, 1)).toBe(0);
   });
-  it("should return the last index when the target is the last item in the array", () => {
+  it("Tiene que devolver el último índice cuando el objetivo es el último elemento del array", () => {
     expect(DoubleLinearSearchRecursion(testArray, 4)).toBe(3);
   });
 });
