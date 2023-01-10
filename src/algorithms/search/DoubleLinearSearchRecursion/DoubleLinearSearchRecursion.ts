@@ -15,4 +15,14 @@ export const DoubleLinearSearchRecursion = (
   left: number = 0,
   right: number = 0
 ): number => {
+  right = right || list_data.length - 1;
+  if (left > right) {
+    return -1;
+  } else if (list_data[left] === clave) {
+    return left;
+  } else if (list_data[right] === clave) {
+    return right;
+  } else {
+    return DoubleLinearSearchRecursion(list_data, clave, left + 1, right - 1);
+  }
 };
