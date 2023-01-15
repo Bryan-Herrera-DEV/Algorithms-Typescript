@@ -38,6 +38,7 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 <br>
 
 - `B` - [Binary Search](/src/algorithms/search/BinarySearch/)
+- `B` - [Double Linear Search Recursion](/src/algorithms/search/DoubleLinearSearchRecursion/)
 </details>
 
 <details><summary>Matemáticos <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/Maths?label=Cantidad%20actual"/></summary>
