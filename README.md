@@ -39,3 +39,9 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 
 - `B` - [Binary Search](/src/algorithms/search/BinarySearch/)
 </details>
+
+<details><summary>Matemáticos <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/Maths?label=Cantidad%20actual"/></summary>
+<br>
+
+- `B` - [Co Prime Integers](/src/algorithms/Maths/CoPrime/)
+</details>
