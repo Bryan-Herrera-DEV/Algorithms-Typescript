@@ -25,7 +25,7 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 <br>
 
 - `B` - [Gnome Sort](/src/algorithms/sorts/GnomeSort/) - [Video](https://www.youtube.com/watch?v=00pu8usw2Ho)
-- `I` - [Quick Sort](/src/algorithms/sorts/QuickSort/)
+- `I` - [Quick Sort](/src/algorithms/sorts/QuickSort/) - [Video](https://www.youtube.com/watch?v=O15QndpLHGE)
 </details>
 
 <details><summary>Cifrado <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/ciphers?label=Cantidad%20actual"/></summary>
