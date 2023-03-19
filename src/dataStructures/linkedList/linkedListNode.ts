@@ -1,21 +1,12 @@
-export interface ILinkedListNode<T> {
+export interface ILinkedListNode<T = unknown> {
   value: T;
-  next: unknown;
+  next: ILinkedListNode<T> | null;
   toString: (callback: (value: T) => string) => string;
 }
-export interface ILinkedListNodeWhithotGeneric {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  value: any;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  next: any;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  toString: (callback?: (value: any) => string) => string;
-}
-
 
 export class LinkedListNode<T> implements ILinkedListNode<T> {
   value: T;
-  next: ILinkedListNode<T> | ILinkedListNodeWhithotGeneric | null;
+  next: ILinkedListNode<T> | null;
   constructor(value: T, next: ILinkedListNode<T> | null = null) {
     this.value = value;
     this.next = next;
