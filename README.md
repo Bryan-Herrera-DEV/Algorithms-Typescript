@@ -46,3 +46,15 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 
 - `B` - [Co Prime Integers](/src/algorithms/Maths/CoPrime/)
 </details>
+
+## Estructuras de datos
+Esencialmente, una estructura de datos es un conjunto de elementos de datos y las relaciones entre ellos, que se utilizan para representar y almacenar información.
+
+`A` - Avanzados, `I` - Intermedios, `B` - Básicos
+
+<details><summary>Estructuras de datos <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/dataStructures?label=Cantidad%20actual"/></summary>
+<br>
+
+- `I` - [Linked List](/src/dataStructures/linkedList/) - [Video](https://www.youtube.com/watch?v=PBhbRcPOEMA)
+</details>
+

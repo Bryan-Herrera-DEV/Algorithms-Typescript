@@ -16,5 +16,8 @@
     "noImplicitAny": true,                               /* Enable error reporting for expressions and declarations with an implied 'any' type. */
     "strictFunctionTypes": true,                         /* Visit https://aka.ms/tsconfig to read more about this file */        /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "exclude": [
+    "./**/*.test.ts",
+  ]
 }
