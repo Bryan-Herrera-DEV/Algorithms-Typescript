@@ -32,6 +32,7 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 <br>
 
 - `I` - [Caesar Cipher](/src/algorithms/ciphers/CaesarCipher/) - [Video](https://www.youtube.com/watch?v=2JS6t3R8gFQ)
+- `B` - [Morse Cipher](/src/algorithms/ciphers/MorseCipher/)
 </details>
 
 <details><summary>Busqueda <img src="https://img.shields.io/github/directory-file-count/bryan-herrera-dev/Algorithms-Typescript/src/algorithms/search?label=Cantidad%20actual"/></summary>
