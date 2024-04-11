@@ -46,6 +46,8 @@ Un algoritmo es una especificación inequívoca de cómo resolver una clase de p
 <br>
 
 - `B` - [Co Prime Integers](/src/algorithms/Maths/CoPrime/)
+- `B` - [Euler Totient](/src/algorithms/Maths/EulerTotient/)
+
 </details>
 
 ## Estructuras de datos
